@@ -25,4 +25,6 @@ document.write('<br/>');
 document.write(letter + ' marks the spot!');
 
 var books = ['Dark Matter', 'House of Leaves', 'SOS Series', 'Penpal', 'Heroes of Olympus Series', 'NewsFlesh Series','The Mithermages Series'];
-// Your code here!
+document.write(books);
+books.push('Hunger Games');
+books.pop();
